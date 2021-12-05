@@ -20,7 +20,7 @@ function checkPrompt(range) {
 function prettyLine(index, str, status, itemAmount) {
   // const isDone = status !== 0 ? chalk.green('done') : chalk.red('pending')
   const isDone = status === 0 ?
-    '⌛️ ' + chalk.red('open'): ' ' + chalk.green('done')
+    '⌛️ ' + chalk.red('open'): '⭐️ ' + chalk.green('done')
   const sapceNeeded = String(itemAmount).length
   // console.log('pretty line, space needed: ', sapceNeeded)
   const idxStringList = String(index + 1).split('')

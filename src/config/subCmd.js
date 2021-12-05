@@ -21,7 +21,7 @@ module.exports = {
     'help' : {
       alias: 'h'
     },
-    '-version' : {
+    'version' : {
       alias: 'v'
     }
   }
