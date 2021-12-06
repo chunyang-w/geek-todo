@@ -42,13 +42,13 @@ git clone git@github.com:snow2512/geek-todo.git
 2. install dependencies:
 run command in project root directory
 ```bash
-npm install geek-todo -g
+npm install
 ```
 
 3. link bins to your enviroment
 run in project root directory
 ```bash
-npm install geek-todo -g
+npm link
 ```
 
 ---
