@@ -25,7 +25,7 @@
 Two options are provided to install `geek-todo`, **both option requires a Node.js run time pre-installed on your machine.**
 [Don't have Node.js installed yet? Check this out](https://nodejs.org/en/)
 
-Installation process on macOS and Windows are identical
+Installation process on macOS / Windows / *nix are identical
 ### npm install
 run command
 ```bash
@@ -89,19 +89,20 @@ When no flags are given, items for today will be displayed by default.
 
 Items you selected will be marked as complated.
 
-#### Batch operation
+#### Batch operation (**recommend**)
+
 When selecting items to be marked as completd, you can mark more than one item
 
    + use expressions like `1-5` to select items `1,2,3,4,5` in one go
    + use expressions like `1,2,3` to select items `1,2,3` in one go
    + use expressions like `1-3,6-9,11` to select items `1,2,3,6,7,8,9,11` in one go
 
-These input pattern can be flexible and promote your efficiency greatly
+These input pattern can be flexible and thus promote your efficiency greatly
 ### ⌛`todo undone`
 
-Mark items as undone. usage similar to `todo done`, falgs like `--all`, `--past`, `--range` and batch operation are also supported
+Mark items as undone. usage similar to `todo done`, flags like `--all`, `--past`, `--range` and batch operation are also supported
 
 ### 🗑`todo remove`
 
-Mark items as undone. usage similar to `todo done`, falgs like `--all`, `--past`, `--range` and batch operation are also supported
+Mark items as undone. usage similar to `todo done`, flags like `--all`, `--past`, `--range` and batch operation are also supported
 
