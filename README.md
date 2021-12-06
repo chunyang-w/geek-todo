@@ -106,3 +106,14 @@ Mark items as undone. usage similar to `todo done`, flags like `--all`, `--past`
 
 Mark items as undone. usage similar to `todo done`, flags like `--all`, `--past`, `--range` and batch operation are also supported
 
+## PS
+
+### Tips for Windows users:
+
+If you are using windows system and haven't tried any CLI tools before, you may encounter `Execution_Policies` issue,
+following command may help:
+
+```bash
+set-ExecutionPolicy RemoteSigned
+
+```
