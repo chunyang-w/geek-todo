@@ -1,5 +1,8 @@
 # GEEK-TODO
 
+![demo](https://github.com/chunyang-w/geek-todo/blob/master/demo/demo.png)
+
+
 💻 A Powerful todo-cli build for *geeks* based on Node.js
 
 ## 🎈 Overview
